@@ -1,0 +1,21 @@
+To create a virtual environnment
+$ python3 -m venv project
+
+To activate that environnment
+$ source project/bin/activate
+
+to  desactivate the environnment
+$ deactivate
+
+To check the name of available packages
+$ pip list
+
+Install all these packages
+pandas, torch, torchvision, matplotlib, tqdm, pillow
+
+To create all the library a new user need to Install
+pip freeze > requirements.txt 
+
+
+In .gitignore file we put everything we don't want it to appear in the github
+
